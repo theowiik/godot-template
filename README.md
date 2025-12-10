@@ -1,22 +1,29 @@
-# Godot Template Project
+## Godot Template Project
 
-Template project for Godot 4
+Template project for Godot 4.
 
 - [Godot Template Project](#godot-template-project)
-  - [Dev Tools](#dev-tools)
-  - [Project Structure](#project-structure)
-    - [File Structure](#file-structure)
-    - [Naming Conventions](#naming-conventions)
+- [Formatting](#formatting)
+- [Project Structure](#project-structure)
 
-## Dev Tools
+## Formatting
 
-text
+The following commands require Make and [Nix](https://nixos.org/), but it can easily be
+ran without them, check the contents of the [Makefile](./Makefile) for how to run
+formatting manually.
+
+```
+$ make help
+Available targets:
+  format  - Format all gdscript files
+  check   - Check formatting of all gdscript files
+```
 
 ## Project Structure
 
-Example structure and naming conventions for organizing Godot 4 projects.
+Example structure for organizing a Godot project:
 
-### File Structure
+**File tree:**
 
 ```
 godot-template/
@@ -28,16 +35,13 @@ godot-template/
 │   └── ...
 ├── scripts/             # GDScript files
 │   └── ...
-├── .editorconfig        # Editor configuration
-├── .gitattributes       # Git attributes
-├── .gitignore           # Git ignore rules
-├── project.godot        # Godot project configuration
-└── README.md            # Project documentation
+└── project.godot        # Godot project configuration
 ```
 
-### Naming Conventions
+**Naming Conventions:**
 
 - **Root Node**: PascalCase (e.g., `Player`, `MainMenu`, `GameLevel`)
-- **File Names**: snake_case matching the root node (e.g., `player.tscn`, `main_menu.tscn`, `game_level.tscn`)
+- **File Names**: snake_case matching the root node (e.g., `player.tscn`,
+  `main_menu.tscn`, `game_level.tscn`)
 - **Script Files**: snake_case (e.g., `player.gd`, `enemy_controller.gd`)
 - **Directories**: snake_case, always lowercase (e.g., `assets/`, `scenes/`, `scripts/`)
