@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="CHANGEME"
+run/main_scene="uid://ovaec6nc7m42"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/icon.svg"
