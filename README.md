@@ -1,12 +1,22 @@
-## Godot Template Project
+# Godot Template Project
 
 Template project for Godot 4.
 
-- [Godot Template Project](#godot-template-project)
-- [Formatting](#formatting)
-- [Project Structure](#project-structure)
+- [Simple Get Started](#simple-get-started)
+- [Less Simple Get Started](#less-simple-get-started)
+  - [Formatting](#formatting)
+  - [Project Structure](#project-structure)
 
-## Formatting
+## Simple Get Started
+
+Copy project and replace `CHANGEME` in [project.godot](project.godot) with your project
+name. Open in Godot and you're done! 🚀
+
+## Less Simple Get Started
+
+More details for nerds 🤓
+
+### Formatting
 
 The following commands require Make and [Nix](https://nixos.org/), but it can easily be
 ran without them, check the contents of the [Makefile](./Makefile) for how to run
@@ -19,7 +29,7 @@ Available targets:
   check   - Check formatting of all gdscript files
 ```
 
-## Project Structure
+### Project Structure
 
 Example structure for organizing a Godot project:
 
